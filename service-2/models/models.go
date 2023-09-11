@@ -13,7 +13,7 @@ type Book struct {
 	Read   string
 }
 
-// Get all books in the books table.
+// Get all books in the books table.asdf
 func AllBooks() ([]Book, error) {
 	query := "SELECT ** FROM books"
 	rows, err := DB.Query(query)
